@@ -1,0 +1,1783 @@
+{
+    "data": [
+        {
+            "timestamp": 11.541,
+            "speaker": "instructor",
+            "utterance": "Hi",
+            "type": "chat"
+        },
+        {
+            "timestamp": 17.541,
+            "speaker": "navigator",
+            "utterance": "Hello",
+            "type": "chat"
+        },
+        {
+            "timestamp": 34.541,
+            "speaker": "instructor",
+            "utterance": "Please open 'Proton Mail.'",
+            "type": "chat"
+        },
+        {
+            "timestamp": 39.541,
+            "speaker": "navigator",
+            "utterance": "Yes, sure",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 51.83899998664856,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "load",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": 2011625754,
+                        "timestamp": 1685706535298,
+                        "url": "https://proton.me/mail",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "documentId": "671B09B3560665EA9F02A3166D7BF3DE",
+                        "documentLifecycle": "active",
+                        "frameId": 0,
+                        "frameType": "outermost_frame",
+                        "parentFrameId": -1,
+                        "processId": 739,
+                        "tabId": 2011625754,
+                        "timeStamp": 1685706534475.022,
+                        "transitionQualifiers": [
+                            "server_redirect",
+                            "from_address_bar"
+                        ],
+                        "transitionType": "typed",
+                        "url": "https://proton.me/mail"
+                    }
+                },
+                "event_id": 0,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 55.68399977684021,
+            "state": {
+                "screenshot": "screenshot-1-0.png",
+                "page": "page-2-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 1002,
+                        "mouseY": 31,
+                        "tabId": 2011625754,
+                        "timestamp": 1685706539143,
+                        "url": "https://proton.me/mail",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 1002,
+                        "clientY": 31,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 9,
+                        "layerY": 17,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 22,
+                        "offsetY": 17,
+                        "pageX": 1002,
+                        "pageY": 31,
+                        "returnValue": true,
+                        "screenX": 1002,
+                        "screenY": 102,
+                        "shiftKey": false,
+                        "timeStamp": 7244.39999999851,
+                        "x": 1002,
+                        "y": 31
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "flex items-center gap-2 transition-transform duration-300 group-hover:!-translate-x-3",
+                            "data-webtasks-id": "2d4c43ac-4022-4c0d"
+                        },
+                        "bbox": {
+                            "bottom": 34,
+                            "height": 20.015625,
+                            "left": 980.140625,
+                            "right": 1021.21875,
+                            "top": 13.984375,
+                            "width": 41.078125,
+                            "x": 980.140625,
+                            "y": 13.984375
+                        },
+                        "innerHTML": "Sign in",
+                        "outerHTML": "<span class=\"flex items-center gap-2 transition-transform duration-300 group-hover:!-translate-x-3\" data-webtasks-id=\"2d4c43ac-4022-4c0d\">Sign in</span>",
+                        "tagName": "SPAN",
+                        "textContent": "Sign in",
+                        "xpath": "id(\"gatsby-focus-wrapper\")/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/a[1]/span[1]/span[1]"
+                    }
+                },
+                "event_id": 2,
+                "element_html": "<span class=\"flex items-center gap-2 transition-transform duration-300 group-hover:!-translate-x-3\" data-webtasks-id=\"2d4c43ac-4022-4c0d\">Sign in</span>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 77.541,
+            "speaker": "instructor",
+            "utterance": "Could you compose an email for me?",
+            "type": "chat"
+        },
+        {
+            "timestamp": 113.541,
+            "speaker": "navigator",
+            "utterance": "Sure. What type of email would you like to compose?",
+            "type": "chat"
+        },
+        {
+            "timestamp": 118.541,
+            "speaker": "instructor",
+            "utterance": "Compose an \"Invitation to Exclusive Tech Conference - June 2023.\"",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 119.4079999923706,
+            "state": {
+                "screenshot": "screenshot-5-1.png",
+                "page": "page-5-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 138,
+                        "mouseY": 78,
+                        "tabId": 2011625754,
+                        "timestamp": 1685706602867,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 138,
+                        "clientY": 78,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 138,
+                        "layerY": 78,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 130,
+                        "offsetY": 9,
+                        "pageX": 138,
+                        "pageY": 78,
+                        "returnValue": true,
+                        "screenX": 138,
+                        "screenY": 149,
+                        "shiftKey": false,
+                        "timeStamp": 55814.300000000745,
+                        "x": 138,
+                        "y": 78
+                    },
+                    "element": {
+                        "attributes": {
+                            "aria-busy": "false",
+                            "aria-describedby": "tooltip-10",
+                            "class": "button button-large button-solid-norm w100 no-mobile",
+                            "data-testid": "sidebar:compose",
+                            "data-webtasks-id": "43431c0e-9673-4807",
+                            "type": "button"
+                        },
+                        "bbox": {
+                            "bottom": 112,
+                            "height": 44,
+                            "left": 7,
+                            "right": 243,
+                            "top": 68,
+                            "width": 236,
+                            "x": 7,
+                            "y": 68
+                        },
+                        "innerHTML": "New message",
+                        "outerHTML": "<button class=\"button button-large button-solid-norm w100 no-mobile\" aria-busy=\"false\" type=\"button\" data-testid=\"sidebar:compose\" aria-describedby=\"tooltip-10\" data-webtasks-id=\"43431c0e-9673-4807\">New message</button>",
+                        "tagName": "BUTTON",
+                        "textContent": "New message",
+                        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]"
+                    }
+                },
+                "event_id": 5,
+                "element_html": "<button aria-busy=\"false\" aria-describedby=\"tooltip-10\" class=\"button button-large button-solid-norm w100 no-mobile\" data-testid=\"sidebar:compose\" data-webtasks-id=\"43431c0e-9673-4807\" type=\"button\">New message</button>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 128.541,
+            "speaker": "navigator",
+            "utterance": "Okay",
+            "type": "chat"
+        },
+        {
+            "timestamp": 141.541,
+            "speaker": "navigator",
+            "utterance": "Let me check",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 146.02199983596802,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabcreate",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706629481,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625756
+                    }
+                },
+                "event_id": 6,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 146.1909999847412,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabswitch",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706629650,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625756,
+                        "tabIdOrigin": 2011625754,
+                        "windowId": 2011625531
+                    }
+                },
+                "event_id": 7,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 150.3109998703003,
+            "state": {
+                "screenshot": "screenshot-8-1.png",
+                "page": "page-6-0.html",
+                "screenshot_status": "broken"
+            },
+            "action": {
+                "intent": "load",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": 2011625756,
+                        "timestamp": 1685706633770,
+                        "url": "https://www.google.com/search?q=chatgpt&rlz=1C1UEAD_enIN1020IN1020&oq=chatgpt&aqs=chrome..69i57j35i39i650j0i131i433i512l2j0i433i512l3j0i131i433i512l3.2068j0j7&sourceid=chrome&ie=UTF-8",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "documentId": "3B485E4580E3E207B6C7BF95532B3EED",
+                        "documentLifecycle": "active",
+                        "frameId": 0,
+                        "frameType": "outermost_frame",
+                        "parentFrameId": -1,
+                        "processId": 744,
+                        "tabId": 2011625756,
+                        "timeStamp": 1685706633567.935,
+                        "transitionQualifiers": [
+                            "from_address_bar"
+                        ],
+                        "transitionType": "generated",
+                        "url": "https://www.google.com/search?q=chatgpt&rlz=1C1UEAD_enIN1020IN1020&oq=chatgpt&aqs=chrome..69i57j35i39i650j0i131i433i512l2j0i433i512l3j0i131i433i512l3.2068j0j7&sourceid=chrome&ie=UTF-8"
+                    }
+                },
+                "event_id": 8,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 152.28199982643127,
+            "state": {
+                "screenshot": "screenshot-9-1.png",
+                "page": "page-9-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 327,
+                        "mouseY": 242,
+                        "tabId": 2011625756,
+                        "timestamp": 1685706635741,
+                        "url": "https://www.google.com/search?q=chatgpt&rlz=1C1UEAD_enIN1020IN1020&oq=chatgpt&aqs=chrome..69i57j35i39i650j0i131i433i512l2j0i433i512l3j0i131i433i512l3.2068j0j7&sourceid=chrome&ie=UTF-8",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 327,
+                        "clientY": 242,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 147,
+                        "layerY": 60,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 147,
+                        "offsetY": 21,
+                        "pageX": 327,
+                        "pageY": 242,
+                        "returnValue": true,
+                        "screenX": 327,
+                        "screenY": 313,
+                        "shiftKey": false,
+                        "timeStamp": 2311,
+                        "x": 327,
+                        "y": 242
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "LC20lb MBeuO DKV0Md"
+                        },
+                        "bbox": {
+                            "bottom": 251.53125,
+                            "height": 31,
+                            "left": 180,
+                            "right": 453.109375,
+                            "top": 220.53125,
+                            "width": 273.109375,
+                            "x": 180,
+                            "y": 220.53125
+                        },
+                        "innerHTML": "Introducing ChatGPT - OpenAI",
+                        "outerHTML": "<h3 class=\"LC20lb MBeuO DKV0Md\">Introducing ChatGPT - OpenAI</h3>",
+                        "tagName": "H3",
+                        "textContent": "Introducing ChatGPT - OpenAI",
+                        "xpath": "id(\"rso\")/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]"
+                    }
+                },
+                "event_id": 9,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 166.93299984931946,
+            "state": {
+                "screenshot": "screenshot-13-0.png",
+                "page": "page-13-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 1161,
+                        "mouseY": 43,
+                        "tabId": 2011625756,
+                        "timestamp": 1685706650392,
+                        "url": "https://openai.com/blog/chatgpt",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 1161,
+                        "clientY": 43,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 23,
+                        "layerY": 15,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 23,
+                        "offsetY": 16,
+                        "pageX": 1161,
+                        "pageY": 43,
+                        "returnValue": true,
+                        "screenX": 1161,
+                        "screenY": 114,
+                        "shiftKey": false,
+                        "timeStamp": 14594.800000000745,
+                        "x": 1161,
+                        "y": 43
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "f-ui-1 underline-transparent underline-thickness-1 underline-offset-4 group-hover:underline group-hover:underline-inherit",
+                            "data-webtasks-id": "691a75ea-27a8-4456"
+                        },
+                        "bbox": {
+                            "bottom": 50.578125,
+                            "height": 23.390625,
+                            "left": 1137.796875,
+                            "right": 1186.625,
+                            "top": 27.1875,
+                            "width": 48.828125,
+                            "x": 1137.796875,
+                            "y": 27.1875
+                        },
+                        "innerHTML": "Log in",
+                        "outerHTML": "<span class=\"f-ui-1 underline-transparent underline-thickness-1 underline-offset-4 group-hover:underline group-hover:underline-inherit\" data-webtasks-id=\"691a75ea-27a8-4456\">Log in</span>",
+                        "tagName": "SPAN",
+                        "textContent": "Log in",
+                        "xpath": "id(\"blog-details-chatgpt\")/div[1]/div[1]/div[2]/header[1]/div[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[1]/a[1]/span[1]/span[1]"
+                    }
+                },
+                "event_id": 13,
+                "element_html": "<span class=\"f-ui-1 underline-transparent underline-thickness-1 underline-offset-4 group-hover:underline group-hover:underline-inherit\" data-webtasks-id=\"691a75ea-27a8-4456\">Log in</span>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 169.0059998035431,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabcreate",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706652465,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625757
+                    }
+                },
+                "event_id": 14,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 169.3549997806549,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabswitch",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706652814,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625757,
+                        "tabIdOrigin": 2011625756,
+                        "windowId": 2011625531
+                    }
+                },
+                "event_id": 15,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 170.32499980926514,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabremove",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706653784,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625756
+                    }
+                },
+                "event_id": 16,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 172.59499979019165,
+            "state": {
+                "screenshot": "screenshot-17-1.png",
+                "page": "page-18-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 399,
+                        "mouseY": 338,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706656054,
+                        "url": "https://platform.openai.com/apps",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 399,
+                        "clientY": 338,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 148,
+                        "layerY": 157,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 148,
+                        "offsetY": 157,
+                        "pageX": 399,
+                        "pageY": 338,
+                        "returnValue": true,
+                        "screenX": 399,
+                        "screenY": 409,
+                        "shiftKey": false,
+                        "timeStamp": 5405.400000002235,
+                        "x": 399,
+                        "y": 338
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "launcher-item",
+                            "data-webtasks-id": "9b737d85-93de-4188",
+                            "href": "https://chat.openai.com/auth/login?sso"
+                        },
+                        "bbox": {
+                            "bottom": 581,
+                            "height": 400,
+                            "left": 251,
+                            "right": 531,
+                            "top": 181,
+                            "width": 280,
+                            "x": 251,
+                            "y": 181
+                        },
+                        "innerHTML": "<div class=\"launcher-item-header\" data-webtasks-id=\"a3731b69-d74f-4fe1\"><h1 data-webtasks-id=\"85449942-ad66-41c2\">ChatGPT</h1><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"b1d6ebdd-a358-403d\"><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" data-webtasks-id=\"c2205870-4cde-460e\"></line><polyline points=\"12 5 19 12 12 19\" data-webtasks-id=\"eae9d285-3551-452e\"></polyline></svg></div><div class=\"launcher-item-desc\" data-webtasks-id=\"e2afe649-e9ee-41d1\">Interact with our flagship language models in a conversational interface</div>",
+                        "outerHTML": "<a class=\"launcher-item\" href=\"https://chat.openai.com/auth/login?sso\" data-webtasks-id=\"9b737d85-93de-4188\"><div class=\"launcher-item-header\" data-webtasks-id=\"a3731b69-d74f-4fe1\"><h1 data-webtasks-id=\"85449942-ad66-41c2\">ChatGPT</h1><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"b1d6ebdd-a358-403d\"><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" data-webtasks-id=\"c2205870-4cde-460e\"></line><polyline points=\"12 5 19 12 12 19\" data-webtasks-id=\"eae9d285-3551-452e\"></polyline></svg></div><div class=\"launcher-item-desc\" data-webtasks-id=\"e2afe649-e9ee-41d1\">Interact with our flagship language models in a conversational interface</div></a>",
+                        "tagName": "A",
+                        "textContent": "ChatGPTInteract with our flagship language models in a conversational interface",
+                        "xpath": "id(\"root\")/div[1]/div[1]/div[1]/div[2]/a[1]"
+                    }
+                },
+                "event_id": 18,
+                "element_html": "<a class=\"launcher-item\" data-webtasks-id=\"9b737d85-93de-4188\" href=\"https://chat.openai.com/auth/login?sso\"><div class=\"launcher-item-header\" data-webtasks-id=\"a3731b69-d74f-4fe1\"><h1 data-webtasks-id=\"85449942-ad66-41c2\">ChatGPT</h1><svg data-webtasks-id=\"b1d6ebdd-a358-403d\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><line data-webtasks-id=\"c2205870-4cde-460e\" x1=\"5\" x2=\"19\" y1=\"12\" y2=\"12\"></line><polyline data-webtasks-id=\"eae9d285-3551-452e\" points=\"12 5 19 12 12 19\"></polyline></svg></div><div class=\"launcher-item-desc\" data-webtasks-id=\"e2afe649-e9ee-41d1\">Interact with our flagship language models in a conversational interface</div></a>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 180.94400000572205,
+            "state": {
+                "screenshot": "screenshot-21-1.png",
+                "page": "page-21-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 514,
+                        "mouseY": 582,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706664403,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 514,
+                        "clientY": 582,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 85,
+                        "layerY": 35,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 68,
+                        "offsetY": 18,
+                        "pageX": 514,
+                        "pageY": 582,
+                        "returnValue": true,
+                        "screenX": 514,
+                        "screenY": 653,
+                        "shiftKey": false,
+                        "timeStamp": 6370.199999999255,
+                        "x": 514,
+                        "y": 582
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0",
+                            "data-id": "root",
+                            "data-webtasks-id": "5714b466-fc86-4559",
+                            "id": "prompt-textarea",
+                            "placeholder": "Send a message.",
+                            "rows": "1",
+                            "style": "max-height: 200px; height: 24px; overflow-y: hidden;",
+                            "tabindex": "0"
+                        },
+                        "bbox": {
+                            "bottom": 588,
+                            "height": 24,
+                            "left": 446,
+                            "right": 1196,
+                            "top": 564,
+                            "width": 750,
+                            "x": 446,
+                            "y": 564
+                        },
+                        "innerHTML": "",
+                        "outerHTML": "<textarea id=\"prompt-textarea\" tabindex=\"0\" data-id=\"root\" rows=\"1\" placeholder=\"Send a message.\" class=\"m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0\" style=\"max-height: 200px; height: 24px; overflow-y: hidden;\" data-webtasks-id=\"5714b466-fc86-4559\"></textarea>",
+                        "tagName": "TEXTAREA",
+                        "textContent": "",
+                        "xpath": "id(\"prompt-textarea\")"
+                    }
+                },
+                "event_id": 21,
+                "element_html": "<textarea class=\"m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0\" data-id=\"root\" data-webtasks-id=\"5714b466-fc86-4559\" id=\"prompt-textarea\" placeholder=\"Send a message.\" rows=\"1\" style=\"max-height: 200px; height: 24px; overflow-y: hidden;\" tabindex=\"0\"></textarea>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 181.97399997711182,
+            "state": {
+                "screenshot": "screenshot-22-1.png",
+                "page": "page-22-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "paste",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 514,
+                        "mouseY": 582,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706665433,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "composed": true,
+                        "eventPhase": 0,
+                        "returnValue": true,
+                        "timeStamp": 7390.900000002235
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0",
+                            "data-id": "root",
+                            "data-webtasks-id": "5714b466-fc86-4559",
+                            "id": "prompt-textarea",
+                            "placeholder": "Send a message.",
+                            "rows": "1",
+                            "style": "max-height: 200px; height: 24px; overflow-y: hidden;",
+                            "tabindex": "0"
+                        },
+                        "bbox": {
+                            "bottom": 588,
+                            "height": 24,
+                            "left": 446,
+                            "right": 1196,
+                            "top": 564,
+                            "width": 750,
+                            "x": 446,
+                            "y": 564
+                        },
+                        "innerHTML": "",
+                        "outerHTML": "<textarea id=\"prompt-textarea\" tabindex=\"0\" data-id=\"root\" rows=\"1\" placeholder=\"Send a message.\" class=\"m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0\" style=\"max-height: 200px; height: 24px; overflow-y: hidden;\" data-webtasks-id=\"5714b466-fc86-4559\"></textarea>",
+                        "tagName": "TEXTAREA",
+                        "textContent": "",
+                        "xpath": "id(\"prompt-textarea\")"
+                    },
+                    "pasted": "Compose an \"Invitation to Exclusive Tech Conference - June 2023.\""
+                },
+                "event_id": 22,
+                "element_html": "<textarea class=\"m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0\" data-id=\"root\" data-webtasks-id=\"5714b466-fc86-4559\" id=\"prompt-textarea\" placeholder=\"Send a message.\" rows=\"1\" style=\"max-height: 200px; height: 24px; overflow-y: hidden;\" tabindex=\"0\"></textarea>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 219.09299993515015,
+            "state": {
+                "screenshot": "screenshot-23-0.png",
+                "page": "page-23-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "scroll",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 565,
+                        "mouseY": 375,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706702552,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 0,
+                        "clientX": 565,
+                        "clientY": 375,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 0,
+                        "eventPhase": 0,
+                        "layerX": 86,
+                        "layerY": 333,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 86,
+                        "offsetY": -83,
+                        "pageX": 565,
+                        "pageY": 375,
+                        "returnValue": true,
+                        "screenX": 565,
+                        "screenY": 446,
+                        "shiftKey": false,
+                        "timeStamp": 44004.900000002235,
+                        "x": 565,
+                        "y": 375
+                    },
+                    "scrollX": 0,
+                    "scrollY": -1376
+                },
+                "event_id": 23,
+                "element_html": null,
+                "screenshot_effect": "screenshot-23-1.png"
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 229.2389998435974,
+            "state": {
+                "screenshot": "screenshot-25-1.png",
+                "page": "page-25-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 479,
+                        "mouseY": 151,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706712698,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 479,
+                        "clientY": 151,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 0,
+                        "layerY": 43,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 0,
+                        "offsetY": 43,
+                        "pageX": 479,
+                        "pageY": 151,
+                        "returnValue": true,
+                        "screenX": 479,
+                        "screenY": 222,
+                        "shiftKey": false,
+                        "timeStamp": 54647.5,
+                        "x": 479,
+                        "y": 151
+                    },
+                    "element": {
+                        "attributes": {
+                            "data-webtasks-id": "8919312b-a05a-466d"
+                        },
+                        "bbox": {
+                            "bottom": 276,
+                            "height": 168,
+                            "left": 479,
+                            "right": 1132,
+                            "top": 108,
+                            "width": 653,
+                            "x": 479,
+                            "y": 108
+                        },
+                        "innerHTML": "[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]",
+                        "outerHTML": "<p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p>",
+                        "tagName": "P",
+                        "textContent": "[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]",
+                        "xpath": "id(\"__next\")/div[2]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/p[1]"
+                    }
+                },
+                "event_id": 25,
+                "element_html": "<p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 232.60199999809265,
+            "state": {
+                "screenshot": "screenshot-25-1.png",
+                "page": "page-26-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 478,
+                        "mouseY": 155,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706716061,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 478,
+                        "clientY": 155,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 218,
+                        "layerY": 155,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 53,
+                        "offsetY": 71,
+                        "pageX": 478,
+                        "pageY": 155,
+                        "returnValue": true,
+                        "screenX": 478,
+                        "screenY": 226,
+                        "shiftKey": false,
+                        "timeStamp": 58034.10000000149,
+                        "x": 478,
+                        "y": 155
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto",
+                            "data-webtasks-id": "76edcc10-fdf4-492f"
+                        },
+                        "bbox": {
+                            "bottom": 1840,
+                            "height": 1756,
+                            "left": 425,
+                            "right": 1193,
+                            "top": 84,
+                            "width": 768,
+                            "x": 425,
+                            "y": 84
+                        },
+                        "innerHTML": "<div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg width=\"41\" height=\"41\" viewBox=\"0 0 41 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" class=\"h-6 w-6\" role=\"img\" data-webtasks-id=\"aff8a096-4741-4231\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text x=\"-9999\" y=\"-9999\" data-webtasks-id=\"a0cc4c70-f9d3-4af3\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" fill=\"currentColor\" data-webtasks-id=\"7be79e4d-264e-4790\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ed1759ae-b503-4908\"><polyline points=\"15 18 9 12 15 6\" data-webtasks-id=\"c39ad5d8-1330-488e\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ebc123a4-b03c-48cf\"><polyline points=\"9 18 15 12 9 6\" data-webtasks-id=\"d6c4a7f3-a862-4b3c\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"1db0a62c-ed6d-47fc\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\" ry=\"1\" data-webtasks-id=\"dfc2e532-7ef1-4133\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"904da8b4-bcd4-4c8a\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div>",
+                        "outerHTML": "<div class=\"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto\" data-webtasks-id=\"76edcc10-fdf4-492f\"><div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg width=\"41\" height=\"41\" viewBox=\"0 0 41 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" class=\"h-6 w-6\" role=\"img\" data-webtasks-id=\"aff8a096-4741-4231\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text x=\"-9999\" y=\"-9999\" data-webtasks-id=\"a0cc4c70-f9d3-4af3\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" fill=\"currentColor\" data-webtasks-id=\"7be79e4d-264e-4790\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ed1759ae-b503-4908\"><polyline points=\"15 18 9 12 15 6\" data-webtasks-id=\"c39ad5d8-1330-488e\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ebc123a4-b03c-48cf\"><polyline points=\"9 18 15 12 9 6\" data-webtasks-id=\"d6c4a7f3-a862-4b3c\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"1db0a62c-ed6d-47fc\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\" ry=\"1\" data-webtasks-id=\"dfc2e532-7ef1-4133\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"904da8b4-bcd4-4c8a\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div></div>",
+                        "tagName": "DIV",
+                        "textContent": "ChatGPTChatGPT1 / 1[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number][Date]Dear [Recipient's Name],We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]Key Highlights of the Exclusive Tech Conference:Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.Sincerely,[Your Name]\n[Your Title]\n[Company Name]",
+                        "xpath": "id(\"__next\")/div[2]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    }
+                },
+                "event_id": 26,
+                "element_html": "<div class=\"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto\" data-webtasks-id=\"76edcc10-fdf4-492f\"><div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg class=\"h-6 w-6\" data-webtasks-id=\"aff8a096-4741-4231\" fill=\"none\" height=\"41\" role=\"img\" stroke-width=\"1.5\" viewbox=\"0 0 41 41\" width=\"41\" xmlns=\"http://www.w3.org/2000/svg\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text data-webtasks-id=\"a0cc4c70-f9d3-4af3\" x=\"-9999\" y=\"-9999\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" data-webtasks-id=\"7be79e4d-264e-4790\" fill=\"currentColor\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\" disabled=\"\"><svg class=\"h-3 w-3\" data-webtasks-id=\"ed1759ae-b503-4908\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polyline data-webtasks-id=\"c39ad5d8-1330-488e\" points=\"15 18 9 12 15 6\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\" disabled=\"\"><svg class=\"h-3 w-3\" data-webtasks-id=\"ebc123a4-b03c-48cf\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polyline data-webtasks-id=\"d6c4a7f3-a862-4b3c\" points=\"9 18 15 12 9 6\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg class=\"h-4 w-4\" data-webtasks-id=\"1db0a62c-ed6d-47fc\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect data-webtasks-id=\"dfc2e532-7ef1-4133\" height=\"4\" rx=\"1\" ry=\"1\" width=\"8\" x=\"8\" y=\"2\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg class=\"h-4 w-4\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg class=\"h-4 w-4\" data-webtasks-id=\"904da8b4-bcd4-4c8a\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div></div>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 234.80399990081787,
+            "state": {
+                "screenshot": "screenshot-25-1.png",
+                "page": "page-27-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 478,
+                        "mouseY": 150,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706718263,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 478,
+                        "clientY": 150,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 218,
+                        "layerY": 150,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 53,
+                        "offsetY": 66,
+                        "pageX": 478,
+                        "pageY": 150,
+                        "returnValue": true,
+                        "screenX": 478,
+                        "screenY": 221,
+                        "shiftKey": false,
+                        "timeStamp": 60235.699999999255,
+                        "x": 478,
+                        "y": 150
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto",
+                            "data-webtasks-id": "76edcc10-fdf4-492f"
+                        },
+                        "bbox": {
+                            "bottom": 1840,
+                            "height": 1756,
+                            "left": 425,
+                            "right": 1193,
+                            "top": 84,
+                            "width": 768,
+                            "x": 425,
+                            "y": 84
+                        },
+                        "innerHTML": "<div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg width=\"41\" height=\"41\" viewBox=\"0 0 41 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" class=\"h-6 w-6\" role=\"img\" data-webtasks-id=\"aff8a096-4741-4231\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text x=\"-9999\" y=\"-9999\" data-webtasks-id=\"a0cc4c70-f9d3-4af3\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" fill=\"currentColor\" data-webtasks-id=\"7be79e4d-264e-4790\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ed1759ae-b503-4908\"><polyline points=\"15 18 9 12 15 6\" data-webtasks-id=\"c39ad5d8-1330-488e\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ebc123a4-b03c-48cf\"><polyline points=\"9 18 15 12 9 6\" data-webtasks-id=\"d6c4a7f3-a862-4b3c\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"1db0a62c-ed6d-47fc\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\" ry=\"1\" data-webtasks-id=\"dfc2e532-7ef1-4133\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"904da8b4-bcd4-4c8a\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div>",
+                        "outerHTML": "<div class=\"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto\" data-webtasks-id=\"76edcc10-fdf4-492f\"><div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg width=\"41\" height=\"41\" viewBox=\"0 0 41 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" class=\"h-6 w-6\" role=\"img\" data-webtasks-id=\"aff8a096-4741-4231\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text x=\"-9999\" y=\"-9999\" data-webtasks-id=\"a0cc4c70-f9d3-4af3\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" fill=\"currentColor\" data-webtasks-id=\"7be79e4d-264e-4790\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ed1759ae-b503-4908\"><polyline points=\"15 18 9 12 15 6\" data-webtasks-id=\"c39ad5d8-1330-488e\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button disabled=\"\" class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-3 w-3\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"ebc123a4-b03c-48cf\"><polyline points=\"9 18 15 12 9 6\" data-webtasks-id=\"d6c4a7f3-a862-4b3c\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"1db0a62c-ed6d-47fc\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\" ry=\"1\" data-webtasks-id=\"dfc2e532-7ef1-4133\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"h-4 w-4\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\" data-webtasks-id=\"904da8b4-bcd4-4c8a\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div></div>",
+                        "tagName": "DIV",
+                        "textContent": "ChatGPTChatGPT1 / 1[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number][Date]Dear [Recipient's Name],We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]Key Highlights of the Exclusive Tech Conference:Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.Sincerely,[Your Name]\n[Your Title]\n[Company Name]",
+                        "xpath": "id(\"__next\")/div[2]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    }
+                },
+                "event_id": 27,
+                "element_html": "<div class=\"flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto\" data-webtasks-id=\"76edcc10-fdf4-492f\"><div class=\"flex-shrink-0 flex flex-col relative items-end\" data-webtasks-id=\"61eaaede-5866-4ba2\"><div class=\"w-[30px]\" data-webtasks-id=\"cd578a26-e770-4cea\"><div class=\"relative p-1 rounded-sm h-[30px] w-[30px] text-white flex items-center justify-center\" data-webtasks-id=\"58587cfc-883c-4827\" style=\"background-color: rgb(25, 195, 125);\"><svg class=\"h-6 w-6\" data-webtasks-id=\"aff8a096-4741-4231\" fill=\"none\" height=\"41\" role=\"img\" stroke-width=\"1.5\" viewbox=\"0 0 41 41\" width=\"41\" xmlns=\"http://www.w3.org/2000/svg\"><title data-webtasks-id=\"5548a1fc-08a2-4045\">ChatGPT</title><text data-webtasks-id=\"a0cc4c70-f9d3-4af3\" x=\"-9999\" y=\"-9999\">ChatGPT</text><path d=\"M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z\" data-webtasks-id=\"7be79e4d-264e-4790\" fill=\"currentColor\"></path></svg></div></div><div class=\"text-xs flex items-center justify-center gap-1 invisible absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible\" data-webtasks-id=\"2de03cdd-ed64-41e2\"><button class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"cd6ea13e-c3ec-4587\" disabled=\"\"><svg class=\"h-3 w-3\" data-webtasks-id=\"ed1759ae-b503-4908\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polyline data-webtasks-id=\"c39ad5d8-1330-488e\" points=\"15 18 9 12 15 6\"></polyline></svg></button><span class=\"flex-grow flex-shrink-0\" data-webtasks-id=\"faa326ff-9fd2-49ec\">1 / 1</span><button class=\"dark:text-white disabled:text-gray-300 dark:disabled:text-gray-400\" data-webtasks-id=\"2291247b-4232-4594\" disabled=\"\"><svg class=\"h-3 w-3\" data-webtasks-id=\"ebc123a4-b03c-48cf\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polyline data-webtasks-id=\"d6c4a7f3-a862-4b3c\" points=\"9 18 15 12 9 6\"></polyline></svg></button></div></div><div class=\"relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]\" data-webtasks-id=\"09654958-8afe-43ec\"><div class=\"flex flex-grow flex-col gap-3\" data-webtasks-id=\"d61ec9eb-0ea2-43b0\"><div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words\" data-webtasks-id=\"a450ffd8-da31-4485\"><div class=\"markdown prose w-full break-words dark:prose-invert light\" data-webtasks-id=\"2fc8c64b-9a75-40e6\"><p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p><p data-webtasks-id=\"6c24e26f-217f-4a05\">[Date]</p><p data-webtasks-id=\"f19582fb-7bb8-4685\">Dear [Recipient's Name],</p><p data-webtasks-id=\"b78a326e-8e49-4eb4\">We are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.</p><p data-webtasks-id=\"ae8d45cd-0521-43ac\">At the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.</p><p data-webtasks-id=\"8039a379-fbd8-4641\">Event Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]</p><p data-webtasks-id=\"8a35385c-2a95-465b\">Key Highlights of the Exclusive Tech Conference:</p><ol data-webtasks-id=\"d0d070a5-17a6-41d7\"><li data-webtasks-id=\"c387a66e-2503-4bf5\"><p data-webtasks-id=\"9f44b722-99e5-43df\">Inspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.</p></li><li data-webtasks-id=\"bef54bf5-de1f-4948\"><p data-webtasks-id=\"819275f1-b533-43c1\">Engaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.</p></li><li data-webtasks-id=\"b8ec2ba2-57f5-4fe2\"><p data-webtasks-id=\"1ab2a54f-5a8d-4616\">Interactive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.</p></li><li data-webtasks-id=\"d5762939-ac83-43b5\"><p data-webtasks-id=\"6d316c16-1078-449c\">Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.</p></li><li data-webtasks-id=\"10191704-487c-4d8b\"><p data-webtasks-id=\"b962976c-f85a-4f8f\">Product Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.</p></li></ol><p data-webtasks-id=\"5e0a2e47-a0c5-4cf1\">We sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.</p><p data-webtasks-id=\"a30de5bd-7b44-4b6c\">To reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.</p><p data-webtasks-id=\"5f9e269a-6d76-4a0f\">We look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.</p><p data-webtasks-id=\"18d46e22-18d9-4b35\">Sincerely,</p><p data-webtasks-id=\"81147631-9b67-4508\">[Your Name]\n[Your Title]\n[Company Name]</p></div></div></div><div class=\"flex justify-between lg:block\" data-webtasks-id=\"cbfbefdd-f591-4ed5\"><div class=\"text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible\" data-webtasks-id=\"5187219d-85a8-4da8\"><button class=\"flex ml-auto gap-2 rounded-md p-1 hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"af339632-5bf5-4d73\"><svg class=\"h-4 w-4\" data-webtasks-id=\"1db0a62c-ed6d-47fc\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" data-webtasks-id=\"cd5f4c9e-efaf-4de3\"></path><rect data-webtasks-id=\"dfc2e532-7ef1-4133\" height=\"4\" rx=\"1\" ry=\"1\" width=\"8\" x=\"8\" y=\"2\"></rect></svg></button><div class=\"flex gap-1\" data-webtasks-id=\"06f67437-9d14-43b4\"><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"baa6b615-e6f9-401e\"><svg class=\"h-4 w-4\" data-webtasks-id=\"e1ae0ad5-66ee-44b8\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\" data-webtasks-id=\"d41623a9-c1cf-49ab\"></path></svg></button><button class=\"p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400\" data-webtasks-id=\"e66d774d-4ec0-4bef\"><svg class=\"h-4 w-4\" data-webtasks-id=\"904da8b4-bcd4-4c8a\" fill=\"none\" height=\"1em\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17\" data-webtasks-id=\"bc6c99fb-0210-4312\"></path></svg></button></div></div></div></div></div>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 248.67499995231628,
+            "state": {
+                "screenshot": "screenshot-28-1.png",
+                "page": "page-28-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "copy",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 524,
+                        "mouseY": 168,
+                        "tabId": 2011625757,
+                        "timestamp": 1685706732134,
+                        "url": "https://chat.openai.com/",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "composed": true,
+                        "eventPhase": 0,
+                        "returnValue": true,
+                        "timeStamp": 74085.5
+                    },
+                    "element": {
+                        "attributes": {
+                            "data-webtasks-id": "8919312b-a05a-466d"
+                        },
+                        "bbox": {
+                            "bottom": -927,
+                            "height": 168,
+                            "left": 479,
+                            "right": 1132,
+                            "top": -1095,
+                            "width": 653,
+                            "x": 479,
+                            "y": -1095
+                        },
+                        "innerHTML": "[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]",
+                        "outerHTML": "<p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p>",
+                        "tagName": "P",
+                        "textContent": "[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]",
+                        "xpath": "id(\"__next\")/div[2]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/p[1]"
+                    },
+                    "selected": "[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]\n\n[Date]\n\nDear [Recipient's Name],\n\nWe are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on [Date] at the prestigious [Venue Name] in [City]. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.\n\nAt the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.\n\nEvent Details:\nDate: [Date]\nTime: [Start Time] to [End Time]\nVenue: [Venue Name]\nAddress: [Venue Address]\nCity: [City]\nState: [State]\nZIP: [ZIP]\n\nKey Highlights of the Exclusive Tech Conference:\n\nInspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.\n\nEngaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.\n\nInteractive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.\n\nNetworking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.\n\nProduct Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.\n\nWe sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.\n\nTo reserve your spot at the Exclusive Tech Conference, please visit our website at [Conference Website] or contact our dedicated team at [Contact Details]. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.\n\nWe look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.\n\nSincerely,\n\n[Your Name]\n[Your Title]\n[Company Name]\n\n\n\n\n\n\n"
+                },
+                "event_id": 28,
+                "element_html": "<p data-webtasks-id=\"8919312b-a05a-466d\">[Your Company Logo]\n[Company Name]\n[Company Address]\n[City, State, ZIP]\n[Email Address]\n[Phone Number]</p>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 252.2299997806549,
+            "state": {
+                "screenshot": null,
+                "page": null
+            },
+            "action": {
+                "intent": "tabswitch",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 0,
+                        "mouseY": 0,
+                        "tabId": -1,
+                        "timestamp": 1685706735689,
+                        "url": "",
+                        "viewportHeight": -1,
+                        "viewportWidth": -1,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "tabId": 2011625754,
+                        "tabIdOrigin": 2011625757,
+                        "windowId": 2011625531
+                    }
+                },
+                "event_id": 34,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 264.2259998321533,
+            "state": {
+                "screenshot": "screenshot-35-0.png",
+                "page": "page-35-0.html",
+                "screenshot_status": "good"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 1254,
+                        "mouseY": 32,
+                        "tabId": 2011625754,
+                        "timestamp": 1685706747685,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 1254,
+                        "clientY": 32,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 12,
+                        "layerY": 15,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 6,
+                        "offsetY": 6,
+                        "pageX": 1254,
+                        "pageY": 32,
+                        "returnValue": true,
+                        "screenX": 1254,
+                        "screenY": 103,
+                        "shiftKey": false,
+                        "timeStamp": 200653.80000000075,
+                        "x": 1254,
+                        "y": 32
+                    },
+                    "element": {
+                        "attributes": {
+                            "aria-hidden": "true",
+                            "class": "icon-16p m-auto",
+                            "data-webtasks-id": "ac2187be-21e0-47c1",
+                            "focusable": "false",
+                            "role": "img",
+                            "viewBox": "0 0 16 16"
+                        },
+                        "bbox": {
+                            "bottom": 42,
+                            "height": 16,
+                            "left": 1248.5,
+                            "right": 1264.5,
+                            "top": 26,
+                            "width": 16,
+                            "x": 1248.5,
+                            "y": 26
+                        },
+                        "innerHTML": "<use xlink:href=\"#ic-arrows-from-center\" data-webtasks-id=\"baf504af-3b1c-4050\"></use>",
+                        "outerHTML": "<svg viewBox=\"0 0 16 16\" class=\"icon-16p m-auto\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" data-webtasks-id=\"ac2187be-21e0-47c1\"><use xlink:href=\"#ic-arrows-from-center\" data-webtasks-id=\"baf504af-3b1c-4050\"></use></svg>",
+                        "tagName": "svg",
+                        "textContent": "",
+                        "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]/header[1]/button[2]/svg[1]"
+                    }
+                },
+                "event_id": 35,
+                "element_html": "<svg aria-hidden=\"true\" class=\"icon-16p m-auto\" data-webtasks-id=\"ac2187be-21e0-47c1\" focusable=\"false\" role=\"img\" viewbox=\"0 0 16 16\"><use data-webtasks-id=\"baf504af-3b1c-4050\" xlink:href=\"#ic-arrows-from-center\"></use></svg>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 576.541,
+            "speaker": "navigator",
+            "utterance": "Please help me with the below details:\n\t- Company Name\n\t-Company Address\n\t- City, State, ZIP\n\t- Email Address\n\t- Phone Number\n\t- Date\n\t- Recipient's Name\n\t- Conference date\n\t- Conference venue name, city\n\t- Event Details:\n\tDate: \n\tTime: \n\tVenue: \n\tAddress:\n\tCity: \n\tState: \n\tZIP: \n\t- Conference Website\n\t- team contact details\n\t- Your Name",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1016.541,
+            "speaker": "instructor",
+            "utterance": "Mastercard\n\tAddress 2000 Purchase St, New York\n\t11004\n\tdoe@mastercard.com\n\t8124597456\n\t16/06/2023\n\tDeo Jane\n\tay Inn Express Grove City (Outlet Center)\n\tNY\n\t  Event details:\n\t16/06/2023\n\t11am\n\tAddress 2000 Purchase St, New York 11004\n\texpressress.com\n\t7542639182\n\tGovind verma",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1250.541,
+            "speaker": "navigator",
+            "utterance": "Also, help me with the Recipient's email ID.",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 1286.3389999866486,
+            "state": {
+                "screenshot": "screenshot-36-0.png",
+                "page": "page-36-0.html"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 264,
+                        "mouseY": 174,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707769798,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 264,
+                        "clientY": 174,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 81,
+                        "layerY": 24,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 82,
+                        "offsetY": 24,
+                        "pageX": 264,
+                        "pageY": 174,
+                        "returnValue": true,
+                        "screenX": 264,
+                        "screenY": 245,
+                        "shiftKey": false,
+                        "timeStamp": 1222687.200000003,
+                        "x": 264,
+                        "y": 174
+                    },
+                    "element": {
+                        "attributes": {
+                            "aria-invalid": "false",
+                            "autocapitalize": "off",
+                            "autocomplete": "off",
+                            "autocorrect": "off",
+                            "class": "input-element w100",
+                            "data-testid": "composer:subject",
+                            "data-webtasks-id": "1152f431-c834-447e",
+                            "id": "subject-composer-839",
+                            "placeholder": "Subject",
+                            "spellcheck": "false",
+                            "value": ""
+                        },
+                        "bbox": {
+                            "bottom": 193,
+                            "height": 43,
+                            "left": 182.5,
+                            "right": 1281.5,
+                            "top": 150,
+                            "width": 1099,
+                            "x": 182.5,
+                            "y": 150
+                        },
+                        "innerHTML": "",
+                        "outerHTML": "<input autocomplete=\"off\" autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\" aria-invalid=\"false\" data-testid=\"composer:subject\" id=\"subject-composer-839\" placeholder=\"Subject\" class=\"input-element w100\" value=\"\" data-webtasks-id=\"1152f431-c834-447e\">",
+                        "tagName": "INPUT",
+                        "textContent": "",
+                        "xpath": "id(\"subject-composer-839\")"
+                    }
+                },
+                "event_id": 36,
+                "element_html": "<input aria-invalid=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" class=\"input-element w100\" data-testid=\"composer:subject\" data-webtasks-id=\"1152f431-c834-447e\" id=\"subject-composer-839\" placeholder=\"Subject\" spellcheck=\"false\" value=\"\"/>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 1292.541,
+            "speaker": "instructor",
+            "utterance": "esytest5@gmail.com",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 1294.3209998607635,
+            "state": {
+                "screenshot": "screenshot-37-0.png",
+                "page": "page-37-0.html"
+            },
+            "action": {
+                "intent": "textInput",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 377,
+                        "mouseY": 190,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707777780,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "composed": true,
+                        "detail": 0,
+                        "eventPhase": 2,
+                        "returnValue": true,
+                        "timeStamp": 1230788.200000003
+                    },
+                    "element": {
+                        "attributes": {
+                            "aria-invalid": "false",
+                            "autocapitalize": "off",
+                            "autocomplete": "off",
+                            "autocorrect": "off",
+                            "class": "input-element w100",
+                            "data-event-id": "37",
+                            "data-testid": "composer:subject",
+                            "data-webtasks-id": "1152f431-c834-447e",
+                            "id": "subject-composer-839",
+                            "listener": "true",
+                            "placeholder": "Subject",
+                            "spellcheck": "false",
+                            "value": "Invitation to Exclusive Tech Conference"
+                        },
+                        "bbox": {
+                            "bottom": 193,
+                            "height": 43,
+                            "left": 182.5,
+                            "right": 1281.5,
+                            "top": 150,
+                            "width": 1099,
+                            "x": 182.5,
+                            "y": 150
+                        },
+                        "innerHTML": "",
+                        "outerHTML": "<input autocomplete=\"off\" autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\" aria-invalid=\"false\" data-testid=\"composer:subject\" id=\"subject-composer-839\" placeholder=\"Subject\" class=\"input-element w100\" value=\"Invitation to Exclusive Tech Conference\" data-webtasks-id=\"1152f431-c834-447e\" data-event-id=\"37\" listener=\"true\">",
+                        "tagName": "INPUT",
+                        "textContent": "",
+                        "xpath": "id(\"subject-composer-839\")"
+                    },
+                    "text": "Invitation to Exclusive Tech Conference"
+                },
+                "event_id": 37,
+                "element_html": "<input aria-invalid=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" class=\"input-element w100\" data-testid=\"composer:subject\" data-webtasks-id=\"1152f431-c834-447e\" id=\"subject-composer-839\" placeholder=\"Subject\" spellcheck=\"false\" value=\"\"/>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 1296.3379998207092,
+            "state": {
+                "screenshot": "screenshot-38-0.png",
+                "page": "page-38-0.html"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 285,
+                        "mouseY": 135,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707779797,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 285,
+                        "clientY": 135,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 285,
+                        "layerY": 135,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 285,
+                        "offsetY": 135,
+                        "pageX": 285,
+                        "pageY": 135,
+                        "returnValue": true,
+                        "screenX": 285,
+                        "screenY": 206,
+                        "shiftKey": false,
+                        "timeStamp": 1232632.9000000022,
+                        "x": 285,
+                        "y": 135
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "placeholder",
+                            "data-webtasks-id": "e524de0e-3f8a-4337"
+                        },
+                        "bbox": {
+                            "bottom": 135.5,
+                            "height": 17,
+                            "left": 198.5,
+                            "right": 290.5625,
+                            "top": 118.5,
+                            "width": 92.0625,
+                            "x": 198.5,
+                            "y": 118.5
+                        },
+                        "innerHTML": "Email address",
+                        "outerHTML": "<span class=\"placeholder\" data-webtasks-id=\"e524de0e-3f8a-4337\">Email address</span>",
+                        "tagName": "SPAN",
+                        "textContent": "Email address",
+                        "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]"
+                    }
+                },
+                "event_id": 38,
+                "element_html": "<span class=\"placeholder\" data-webtasks-id=\"e524de0e-3f8a-4337\">Email address</span>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 1298.218999862671,
+            "state": {
+                "screenshot": "screenshot-41-0.png",
+                "page": "page-41-0.html"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 308,
+                        "mouseY": 164,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707781678,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 308,
+                        "clientY": 164,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 125,
+                        "layerY": 6,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 126,
+                        "offsetY": 6,
+                        "pageX": 308,
+                        "pageY": 164,
+                        "returnValue": false,
+                        "screenX": 308,
+                        "screenY": 235,
+                        "shiftKey": false,
+                        "timeStamp": 1234681.200000003,
+                        "x": 308,
+                        "y": 164
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "dropdown-item-button w100 pr1 pl1 pt0-5 pb0-5 block w100 text-left active text-break",
+                            "data-webtasks-id": "e79816d3-1912-4d02",
+                            "id": "to-composer-5810-0",
+                            "title": "esytest5@gmail.com",
+                            "type": "button"
+                        },
+                        "bbox": {
+                            "bottom": 192,
+                            "height": 34,
+                            "left": 182.5,
+                            "right": 1281.5,
+                            "top": 158,
+                            "width": 1099,
+                            "x": 182.5,
+                            "y": 158
+                        },
+                        "innerHTML": "<mark class=\"is-light\" data-webtasks-id=\"32a00313-1bff-4c10\">esytest5@gmail.com</mark>",
+                        "outerHTML": "<button type=\"button\" class=\"dropdown-item-button w100 pr1 pl1 pt0-5 pb0-5 block w100 text-left active text-break\" title=\"esytest5@gmail.com\" id=\"to-composer-5810-0\" data-webtasks-id=\"e79816d3-1912-4d02\"><mark class=\"is-light\" data-webtasks-id=\"32a00313-1bff-4c10\">esytest5@gmail.com</mark></button>",
+                        "tagName": "BUTTON",
+                        "textContent": "esytest5@gmail.com",
+                        "xpath": "id(\"to-composer-5810-0\")"
+                    }
+                },
+                "event_id": 41,
+                "element_html": null,
+                "screenshot_effect": null
+            }
+        },
+        {
+            "type": "browser",
+            "timestamp": 1299.941999912262,
+            "state": {
+                "screenshot": "screenshot-39-0.png",
+                "page": "page-39-0.html"
+            },
+            "action": {
+                "intent": "textInput",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 377,
+                        "mouseY": 205,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707783401,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "composed": true,
+                        "detail": 0,
+                        "eventPhase": 2,
+                        "returnValue": true,
+                        "timeStamp": 1236410.200000003
+                    },
+                    "element": {
+                        "attributes": {
+                            "aria-activedescendant": "to-composer-5810-0",
+                            "aria-autocomplete": "list",
+                            "aria-describedby": "to-composer-5810-autocomplete-suggest-text",
+                            "aria-invalid": "false",
+                            "aria-owns": "to-composer-5810",
+                            "autocomplete": "off",
+                            "class": "field w100 field-focused field-dirty",
+                            "data-event-id": "39",
+                            "data-testid": "composer:to",
+                            "data-webtasks-id": "7303fefc-0778-4b86",
+                            "id": "to-composer-5810",
+                            "listener": "true",
+                            "placeholder": "",
+                            "type": "text",
+                            "value": ""
+                        },
+                        "bbox": {
+                            "bottom": 137.5,
+                            "height": 20,
+                            "left": 384.5,
+                            "right": 1146.125,
+                            "top": 117.5,
+                            "width": 761.625,
+                            "x": 384.5,
+                            "y": 117.5
+                        },
+                        "innerHTML": "",
+                        "outerHTML": "<input class=\"field w100 field-focused field-dirty\" aria-invalid=\"false\" aria-describedby=\"to-composer-5810-autocomplete-suggest-text\" id=\"to-composer-5810\" type=\"text\" placeholder=\"\" autocomplete=\"off\" data-testid=\"composer:to\" aria-owns=\"to-composer-5810\" aria-activedescendant=\"to-composer-5810-0\" aria-autocomplete=\"list\" value=\"\" data-webtasks-id=\"7303fefc-0778-4b86\" data-event-id=\"39\" listener=\"true\">",
+                        "tagName": "INPUT",
+                        "textContent": "",
+                        "xpath": "id(\"to-composer-5810\")"
+                    },
+                    "text": ""
+                },
+                "event_id": 39,
+                "element_html": "<input aria-activedescendant=\"to-composer-5810-0\" aria-autocomplete=\"list\" aria-describedby=\"to-composer-5810-autocomplete-suggest-text\" aria-invalid=\"false\" aria-owns=\"to-composer-5810\" autocomplete=\"off\" class=\"field w100 field-focused\" data-testid=\"composer:to\" data-webtasks-id=\"7303fefc-0778-4b86\" id=\"to-composer-5810\" placeholder=\"Email address\" type=\"text\" value=\"\"/>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 1342.541,
+            "speaker": "navigator",
+            "utterance": "Here is an email composed using ChatGPT. Do let me know if you want nay changes.\n\t\n\tMastercard\n\t2000 Purchase St, New York11004\n\tdoe@mastercard.com\n\t8124597456\n\t\n\t16/06/2023\n\t\n\tDear Deo Jane,\n\t\n\tWe are delighted to extend a special invitation to you for the highly anticipated Exclusive Tech Conference taking place on 16/06/2023 at the prestigious ay Inn Express Grove City (Outlet Center) in NY. This groundbreaking event will bring together visionaries, innovators, and thought leaders from the tech industry for a day of knowledge sharing, networking, and collaboration.\n\t\n\tAt the Exclusive Tech Conference, we aim to provide a platform where industry professionals like yourself can engage in stimulating discussions, gain valuable insights, and explore emerging trends that will shape the future of technology. This conference will feature renowned speakers, interactive panel discussions, hands-on workshops, and exciting product demonstrations.",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1382.541,
+            "speaker": "navigator",
+            "utterance": "Event Details:\n\tDate: 16/06/2023\n\tTime: 11am\n\tAddress 2000 Purchase St, New York 11004\n\t\n\tKey Highlights of the Exclusive Tech Conference:\n\t\n\tInspiring Keynote Presentations: Gain firsthand knowledge from world-class speakers who are shaping the future of technology.\n\t\n\tEngaging Panel Discussions: Participate in thought-provoking discussions led by industry experts on cutting-edge topics and emerging trends.\n\t\n\tInteractive Workshops: Get hands-on experience and learn practical skills through engaging workshops conducted by industry leaders.",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1402.541,
+            "speaker": "navigator",
+            "utterance": "Networking Opportunities: Connect with like-minded professionals, entrepreneurs, and decision-makers to foster valuable relationships and explore potential collaborations.\n\t\n\tProduct Exhibitions: Discover the latest technological innovations through live demonstrations and exhibitions by leading companies.\n\t\n\tWe sincerely believe that your presence at the Exclusive Tech Conference will be instrumental in shaping the conversations around technology and its impact on various industries. This event presents an unparalleled opportunity for you to expand your professional network, gain valuable knowledge, and stay ahead of the curve in an ever-evolving tech landscape.",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1409.541,
+            "speaker": "navigator",
+            "utterance": "To reserve your spot at the Exclusive Tech Conference, please visit our website at expressress.com or contact our dedicated team at 7542639182. Please note that due to the limited number of available seats, we encourage you to register early to secure your attendance.\n\t\n\tWe look forward to welcoming you to the Exclusive Tech Conference and sharing an unforgettable experience with you. Prepare to be inspired, empowered, and equipped with the tools to drive technological innovation in your organization.\n\t\n\tSincerely,\n\t\n\tGovind verma",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1443.541,
+            "speaker": "instructor",
+            "utterance": "Cool!",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1444.541,
+            "speaker": "navigator",
+            "utterance": "Shall I send it?",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1456.541,
+            "speaker": "instructor",
+            "utterance": "Yes, please",
+            "type": "chat"
+        },
+        {
+            "type": "browser",
+            "timestamp": 1460.7799999713898,
+            "state": {
+                "screenshot": "screenshot-40-0.png",
+                "page": "page-40-0.html"
+            },
+            "action": {
+                "intent": "click",
+                "arguments": {
+                    "metadata": {
+                        "mouseX": 1193,
+                        "mouseY": 623,
+                        "tabId": 2011625754,
+                        "timestamp": 1685707944239,
+                        "url": "https://mail.proton.me/u/0/inbox",
+                        "viewportHeight": 657,
+                        "viewportWidth": 1366,
+                        "zoomLevel": 1
+                    },
+                    "properties": {
+                        "altKey": false,
+                        "button": 0,
+                        "buttons": 1,
+                        "clientX": 1193,
+                        "clientY": 623,
+                        "composed": true,
+                        "ctrlKey": false,
+                        "detail": 1,
+                        "eventPhase": 0,
+                        "layerX": 1148,
+                        "layerY": 569,
+                        "metaKey": false,
+                        "movementX": 0,
+                        "movementY": 0,
+                        "offsetX": 15,
+                        "offsetY": 11,
+                        "pageX": 1193,
+                        "pageY": 623,
+                        "returnValue": true,
+                        "screenX": 1193,
+                        "screenY": 694,
+                        "shiftKey": false,
+                        "timeStamp": 1397189.3000000007,
+                        "x": 1193,
+                        "y": 623
+                    },
+                    "element": {
+                        "attributes": {
+                            "class": "pl1 pr1 no-mobile",
+                            "data-webtasks-id": "e994f7a6-9acd-49af"
+                        },
+                        "bbox": {
+                            "bottom": 630.5,
+                            "height": 17,
+                            "left": 1177.53125,
+                            "right": 1239.5,
+                            "top": 613.5,
+                            "width": 61.96875,
+                            "x": 1177.53125,
+                            "y": 613.5
+                        },
+                        "innerHTML": "Send",
+                        "outerHTML": "<span class=\"pl1 pr1 no-mobile\" data-webtasks-id=\"e994f7a6-9acd-49af\">Send</span>",
+                        "tagName": "SPAN",
+                        "textContent": "Send",
+                        "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/button[1]/span[1]"
+                    }
+                },
+                "event_id": 40,
+                "element_html": "<span class=\"pl1 pr1 no-mobile\" data-webtasks-id=\"e994f7a6-9acd-49af\">Send</span>",
+                "screenshot_effect": null
+            }
+        },
+        {
+            "timestamp": 1468.541,
+            "speaker": "navigator",
+            "utterance": "Email is sent",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1481.541,
+            "speaker": "instructor",
+            "utterance": "And with that, we're done.",
+            "type": "chat"
+        },
+        {
+            "timestamp": 1481.541,
+            "speaker": "navigator",
+            "utterance": "Of course, this conversation is now concluded. If you have more questions in the future, feel free to return. Goodbye!",
+            "type": "chat"
+        }
+    ],
+    "status": "checked"
+}

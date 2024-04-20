@@ -68,21 +68,21 @@ class Demonstration:
     def __repr__(self):
         return format_repr(self, "name", "base_dir")
 
-    @cached_property
-    def metadata(self) -> dict:
-        """
-        Returns the metadata dictionary, which contains the following keys:
-            - recordingEnd: end time of the demonstration
-            - recordingEndISO: end time of the demonstration in ISO format
-            - recordingId: unique ID of the demonstration
-            - recordingStart: start time of the demonstration
-            - recordingStartISO: start time of the demonstration in ISO format
-            - timezoneOffsetMinutes: timezone offset in minutes
-            - user: user
-            - userAgent: whether
-            - version: version of the demonstration
-        """
-        return self.load_json("metadata.json")
+    # @cached_property
+    # def metadata(self) -> dict:
+    #     """
+    #     Returns the metadata dictionary, which contains the following keys:
+    #         - recordingEnd: end time of the demonstration
+    #         - recordingEndISO: end time of the demonstration in ISO format
+    #         - recordingId: unique ID of the demonstration
+    #         - recordingStart: start time of the demonstration
+    #         - recordingStartISO: start time of the demonstration in ISO format
+    #         - timezoneOffsetMinutes: timezone offset in minutes
+    #         - user: user
+    #         - userAgent: whether
+    #         - version: version of the demonstration
+    #     """
+    #     return self.load_json("metadata.json")
 
     @cached_property
     def replay(self) -> dict:
@@ -97,19 +97,19 @@ class Demonstration:
         """
         return self.load_json("replay.json")
 
-    @cached_property
-    def form(self) -> dict:
-        """
-        Returns the form dictionary, which contains the form dictionary with the following keys:
-            - annotator: name of the annotator
-            - description: description of the demonstration
-            - tasks: list of tasks
-            - navigator_name: name of the navigator
-            - instructor_name: name of the instructor
-            - shortcode: randomly generated unique shortcode to identify the demonstration
-            - upload_date: date when the demonstration was uploaded
-        """
-        return self.load_json("form.json")
+    # @cached_property
+    # def form(self) -> dict:
+    #     """
+    #     Returns the form dictionary, which contains the form dictionary with the following keys:
+    #         - annotator: name of the annotator
+    #         - description: description of the demonstration
+    #         - tasks: list of tasks
+    #         - navigator_name: name of the navigator
+    #         - instructor_name: name of the instructor
+    #         - shortcode: randomly generated unique shortcode to identify the demonstration
+    #         - upload_date: date when the demonstration was uploaded
+    #     """
+    #     return self.load_json("form.json")
 
     def has_file(self, filename) -> bool:
         """
@@ -127,7 +127,8 @@ class Demonstration:
         check_invalid_file: bool
             Whether to check if the demonstration has an invalid.json file.
         """
-        required_files = ["metadata.json", "replay.json", "form.json"]
+        # required_files = ["metadata.json", "replay.json", "form.json"]
+        required_files = ["replay.json"]
         has_correct_files = all(
             [self.has_file(filename) for filename in required_files]
         )
@@ -211,69 +212,69 @@ class Demonstration:
 
         return str(path)
 
-    def get_version(self, as_tuple=True) -> Union[str, tuple]:
-        """
-        Returns the version of the demonstration as a string or tuple
-        """
-        version = self.metadata["version"]
+    # def get_version(self, as_tuple=True) -> Union[str, tuple]:
+    #     """
+    #     Returns the version of the demonstration as a string or tuple
+    #     """
+    #     version = self.metadata["version"]
 
-        if as_tuple:
-            return tuple(map(int, version.split(".")))
-        else:
-            return version
+    #     if as_tuple:
+    #         return tuple(map(int, version.split(".")))
+    #     else:
+    #         return version
 
-    def get_recording_path(
-        self, format="mp4", prefix="video", return_str=True
-    ) -> Union[Path, str]:
-        """
-        Returns the path to the recording file
+    # def get_recording_path(
+    #     self, format="mp4", prefix="video", return_str=True
+    # ) -> Union[Path, str]:
+    #     """
+    #     Returns the path to the recording file
 
-        format: format of the recording file
-        prefix: prefix of the recording file
-        return_str: whether to return a string instead of a Path object
-        """
-        pattern = f"{prefix}*.{format}"
-        paths = list(self.path.glob(pattern))
-        if len(paths) == 0:
-            raise FileNotFoundError(f"Recording file not found in '{self.path}'")
+    #     format: format of the recording file
+    #     prefix: prefix of the recording file
+    #     return_str: whether to return a string instead of a Path object
+    #     """
+    #     pattern = f"{prefix}*.{format}"
+    #     paths = list(self.path.glob(pattern))
+    #     if len(paths) == 0:
+    #         raise FileNotFoundError(f"Recording file not found in '{self.path}'")
 
-        return str(paths[0]) if return_str else paths[0]
+    #     return str(paths[0]) if return_str else paths[0]
 
-    def get_screenshot_path(self, name, return_str=True) -> Union[Path, str]:
-        """
-        Returns the path to the screenshot file
+    # def get_screenshot_path(self, name, return_str=True) -> Union[Path, str]:
+    #     """
+    #     Returns the path to the screenshot file
 
-        index: index of the screenshot
-        return_str: whether to return a string instead of a Path object
-        """
-        path = self.path / "screenshots" / name
-        if not path.exists():
-            raise FileNotFoundError(f"Screenshot file not found in '{path}'")
+    #     index: index of the screenshot
+    #     return_str: whether to return a string instead of a Path object
+    #     """
+    #     path = self.path / "screenshots" / name
+    #     if not path.exists():
+    #         raise FileNotFoundError(f"Screenshot file not found in '{path}'")
 
-        return str(path) if return_str else path
+    #     return str(path) if return_str else path
 
-    def get_upload_date(self, as_datetime=False) -> Union[str, dt.datetime]:
-        """
-        Returns the upload date of the demonstration as a string or datetime object
-        """
-        upload_date = self.form["upload_date"]
+    # def get_upload_date(self, as_datetime=False) -> Union[str, dt.datetime]:
+    #     """
+    #     Returns the upload date of the demonstration as a string or datetime object
+    #     """
+    #     upload_date = self.form["upload_date"]
 
-        if as_datetime:
-            return dt.datetime.strptime(upload_date, "%Y-%m-%d %H:%M:%S")
-        else:
-            return upload_date
+    #     if as_datetime:
+    #         return dt.datetime.strptime(upload_date, "%Y-%m-%d %H:%M:%S")
+    #     else:
+    #         return upload_date
 
-    def list_all_screenshots(self, return_str=True) -> List[Union[str, Path]]:
-        """
-        Returns a list of all screenshots (including ones not in the replay)
-        """
-        globbed = self.path.joinpath("screenshots").glob("screenshot-*.png")
-        sorted_paths = list(sorted(globbed, key=utils.rank_paths))
+    # def list_all_screenshots(self, return_str=True) -> List[Union[str, Path]]:
+    #     """
+    #     Returns a list of all screenshots (including ones not in the replay)
+    #     """
+    #     globbed = self.path.joinpath("screenshots").glob("screenshot-*.png")
+    #     sorted_paths = list(sorted(globbed, key=utils.rank_paths))
 
-        if return_str:
-            sorted_paths = [str(path) for path in sorted_paths]
+    #     if return_str:
+    #         sorted_paths = [str(path) for path in sorted_paths]
 
-        return sorted_paths
+    #     return sorted_paths
 
     def list_all_html_pages(self, return_str=True) -> List[Union[str, Path]]:
         """
@@ -760,11 +761,11 @@ class Turn(dict):
 
         return all([key in self for key in required_keys])
 
-    def has_screenshot(self):
-        """
-        Returns True if the turn has a screenshot, False otherwise
-        """
-        return self.get("state", {}).get("screenshot") is not None
+    # def has_screenshot(self):
+    #     """
+    #     Returns True if the turn has a screenshot, False otherwise
+    #     """
+    #     return self.get("state", {}).get("screenshot") is not None
 
     def has_html(self):
         """
@@ -787,38 +788,38 @@ class Turn(dict):
             is not None
         )
 
-    def get_screenshot_path(
-        self,
-        subdir: str = "screenshots",
-        return_str: bool = True,
-        throw_error: bool = True,
-    ) -> Union[Path, str]:
-        """
-        Returns the path to the screenshot of the turn, throws an error if the turn does not have a screenshot
+    # def get_screenshot_path(
+    #     self,
+    #     subdir: str = "screenshots",
+    #     return_str: bool = True,
+    #     throw_error: bool = True,
+    # ) -> Union[Path, str]:
+    #     """
+    #     Returns the path to the screenshot of the turn, throws an error if the turn does not have a screenshot
 
-        Parameters
-        ----------
-        subdir: str
-            Subdirectory of the demonstration directory where the HTML pages are stored.
+    #     Parameters
+    #     ----------
+    #     subdir: str
+    #         Subdirectory of the demonstration directory where the HTML pages are stored.
 
-        return_str: bool
-            If True, returns the path as a string, otherwise returns a Path object
+    #     return_str: bool
+    #         If True, returns the path as a string, otherwise returns a Path object
 
-        throw_error: bool
-            If True, throws an error if the turn does not have an HTML page, otherwise returns None
-        """
-        if not self.has_screenshot():
-            if throw_error:
-                raise ValueError(f"Turn {self.index} does not have a screenshot")
-            else:
-                return None
+    #     throw_error: bool
+    #         If True, throws an error if the turn does not have an HTML page, otherwise returns None
+    #     """
+    #     if not self.has_screenshot():
+    #         if throw_error:
+    #             raise ValueError(f"Turn {self.index} does not have a screenshot")
+    #         else:
+    #             return None
 
-        path = Path(self.base_dir, self.demo_name, subdir, self["state"]["screenshot"])
+    #     path = Path(self.base_dir, self.demo_name, subdir, self["state"]["screenshot"])
 
-        if return_str:
-            return str(path)
-        else:
-            return path
+    #     if return_str:
+    #         return str(path)
+    #     else:
+    #         return path
 
     def get_html_path(
         self, subdir: str = "pages", return_str: bool = True, throw_error: bool = True
@@ -892,17 +893,17 @@ class Turn(dict):
 
         return path
 
-    def get_screenshot_status(self):
-        """
-        Retrieves the status of the screenshot associated with the turn. The status can be 'good', 'broken',
-        or None if the status is not defined, which might be the case for turns without a screenshot.
+    # def get_screenshot_status(self):
+    #     """
+    #     Retrieves the status of the screenshot associated with the turn. The status can be 'good', 'broken',
+    #     or None if the status is not defined, which might be the case for turns without a screenshot.
 
-        Returns
-        -------
-        Optional[str]
-            A string indicating the screenshot status ('good', 'broken', or None).
-        """
-        return self["state"].get("screenshot_status")
+    #     Returns
+    #     -------
+    #     Optional[str]
+    #         A string indicating the screenshot status ('good', 'broken', or None).
+    #     """
+    #     return self["state"].get("screenshot_status")
 
     def get_xpaths_dict(
         self,
@@ -1177,12 +1178,12 @@ class Replay:
         """
         return all([turn.validate() for turn in self])
 
-    @lru_cache()
-    def filter_if_screenshot(self) -> List[Turn]:
-        """
-        Filter the turns in the replay by whether the turn contains a screenshot
-        """
-        return self.filter_turns(lambda turn: turn.has_screenshot())
+    # @lru_cache()
+    # def filter_if_screenshot(self) -> List[Turn]:
+    #     """
+    #     Filter the turns in the replay by whether the turn contains a screenshot
+    #     """
+    #     return self.filter_turns(lambda turn: turn.has_screenshot())
 
     def filter_if_html_page(self) -> List[Turn]:
         """
@@ -1204,22 +1205,22 @@ class Replay:
         """
         return list(set(turn.intent for turn in self))
 
-    @lru_cache()
-    def list_screenshots(self, return_str: bool = True):
-        """
-        List path of all screenshots in the current replay (may not be exhaustive).
-        If return_str is True, return the screenshot paths as strings instead of Path objects.
+    # @lru_cache()
+    # def list_screenshots(self, return_str: bool = True):
+    #     """
+    #     List path of all screenshots in the current replay (may not be exhaustive).
+    #     If return_str is True, return the screenshot paths as strings instead of Path objects.
 
-        Note
-        ----
-        If you want to list all screenshots available for a demonstration (even ones
-        that are not in the replay), use the `list_screenshots` method of the Demonstration class.
-        """
-        return [
-            turn.get_screenshot_path(return_str=return_str)
-            for turn in self
-            if turn.has_screenshot()
-        ]
+    #     Note
+    #     ----
+    #     If you want to list all screenshots available for a demonstration (even ones
+    #     that are not in the replay), use the `list_screenshots` method of the Demonstration class.
+    #     """
+    #     return [
+    #         turn.get_screenshot_path(return_str=return_str)
+    #         for turn in self
+    #         if turn.has_screenshot()
+    #     ]
 
     @lru_cache()
     def list_html_pages(self, return_str: bool = True):
@@ -1239,56 +1240,56 @@ class Replay:
         """
         return list(set(turn.url for turn in self if turn.url is not None))
 
-    def assign_screenshot_to_turn(self, turn, method="previous_turn"):
-        """
-        Sets the screenshot path of a turn. This will set the screenshot path
-        under the state -> screenshot key of the turn. If the turn already has a
-        screenshot path, it will be overwritten. If no possible screenshot path
-        can be determined, it will return None, else it will return the screenshot
-        path.
+    # def assign_screenshot_to_turn(self, turn, method="previous_turn"):
+    #     """
+    #     Sets the screenshot path of a turn. This will set the screenshot path
+    #     under the state -> screenshot key of the turn. If the turn already has a
+    #     screenshot path, it will be overwritten. If no possible screenshot path
+    #     can be determined, it will return None, else it will return the screenshot
+    #     path.
 
-        Parameters
-        ----------
+    #     Parameters
+    #     ----------
 
-        turn: Turn
-            Turn object to set the screenshot path for. This will modify the turn
-            in-place.
+    #     turn: Turn
+    #         Turn object to set the screenshot path for. This will modify the turn
+    #         in-place.
 
-        method: str
-            Method to use to set the screenshot path. If 'previous_turn', it will use
-            the index of  the last turn in the demonstration to determine the screenshot
-            path. At the moment, this is the only method available.
-        """
+    #     method: str
+    #         Method to use to set the screenshot path. If 'previous_turn', it will use
+    #         the index of  the last turn in the demonstration to determine the screenshot
+    #         path. At the moment, this is the only method available.
+    #     """
 
-        if method not in ["previous_turn"]:
-            raise ValueError(
-                f"Invalid method '{method}'. Must be one of: 'previous_turn'"
-            )
+    #     if method not in ["previous_turn"]:
+    #         raise ValueError(
+    #             f"Invalid method '{method}'. Must be one of: 'previous_turn'"
+    #         )
 
-        if method == "previous_turn":
-            index = turn.index - 1
+    #     if method == "previous_turn":
+    #         index = turn.index - 1
 
-            if index >= len(self) or index < 0:
-                return None
+    #         if index >= len(self) or index < 0:
+    #             return None
 
-            while index >= 0:
-                prev_turn = self[index]
+    #         while index >= 0:
+    #             prev_turn = self[index]
 
-                if prev_turn.has_screenshot():
-                    if "state" not in turn or turn["state"] is None:
-                        turn["state"] = {}
+    #             if prev_turn.has_screenshot():
+    #                 if "state" not in turn or turn["state"] is None:
+    #                     turn["state"] = {}
 
-                    turn["state"]["screenshot"] = prev_turn["state"]["screenshot"]
-                    if "screenshot_status" in prev_turn["state"]:
-                        turn["state"]["screenshot_status"] = prev_turn["state"][
-                            "screenshot_status"
-                        ]
+    #                 turn["state"]["screenshot"] = prev_turn["state"]["screenshot"]
+    #                 if "screenshot_status" in prev_turn["state"]:
+    #                     turn["state"]["screenshot_status"] = prev_turn["state"][
+    #                         "screenshot_status"
+    #                     ]
 
-                    return turn["state"]["screenshot"]
+    #                 return turn["state"]["screenshot"]
 
-                index -= 1
+    #             index -= 1
 
-            return None
+    #         return None
 
     def assign_html_path_to_turn(self, turn, method="previous_turn"):
         """

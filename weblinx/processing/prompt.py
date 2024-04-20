@@ -650,13 +650,13 @@ def select_turns_and_candidates_for_prompts(
         turns = replay.filter_by_intents(
             "click", "change", "textInput", "scroll", "load", "say", "submit"
         )
-        for turn in turns:
-            if turn.type == "chat" and not turn.has_screenshot():
-                replay.assign_screenshot_to_turn(turn)
+        # for turn in turns:
+        #     if turn.type == "chat" and not turn.has_screenshot():
+        #         replay.assign_screenshot_to_turn(turn)
 
-        turns = filter_turns(
-            turns, lambda t: t.has_screenshot() and t.get_screenshot_status() == "good"
-        )
+        # turns = filter_turns(
+        #     turns, lambda t: t.has_screenshot() and t.get_screenshot_status() == "good"
+        # )
         turns = filter_turns(
             turns,
             lambda turn: not (
@@ -759,8 +759,8 @@ def build_input_record_for_single_turn(
         "prompt": prompt_fmt,
         "output_target": format_intent(turn, return_as=str),
         "output_target_dict": format_intent(turn, return_as=dict),
-        "use_candidates": cands_turn is not None,
-        "screenshot_path": turn.get_screenshot_path(),
+        "use_candidates": cands_turn is not None
+        # "screenshot_path": turn.get_screenshot_path(),
     }
 
 

@@ -300,7 +300,7 @@ def convert_elem_dict_to_str_legacy(elem_dict: dict):
 
 
 def build_records_for_single_turn(
-    turn, replay, format_intent_input, uid_key, max_neg=None, only_allow_valid_uid=True
+    turn, replay, format_intent_input, uid_key, max_neg=None, only_allow_valid_uid=True, num_utterances=5
 ) -> List[dict]:
     """
     This function will build a list of dictionaries, each of which is a record
@@ -331,7 +331,7 @@ def build_records_for_single_turn(
 
     # Now, we can format each of the elements in paths_filt into string
     # and use them as negative samples
-    query = format_turn_for_input(replay, turn, format_intent=format_intent_input)
+    query = format_turn_for_input(replay, turn, format_intent=format_intent_input, num_utterances=num_utterances)
     target_uid = turn.element["attributes"][uid_key] if has_valid_uid else -1
 
     records_positive = []
@@ -372,6 +372,7 @@ def build_records_for_single_demo(
     uid_key="data-webtasks-id",
     only_allow_valid_uid=True,
     group_by_turn=False,
+    num_utterances=5
 ) -> List[dict]:
     """
     This runs `build_records_for_single_turn` for each turn in the demonstration.
@@ -405,6 +406,7 @@ def build_records_for_single_demo(
             uid_key=uid_key,
             max_neg=max_neg_per_turn,
             only_allow_valid_uid=only_allow_valid_uid,
+            num_utterances=num_utterances
         )
         if group_by_turn:
             records_for_demo.append(recs)
