@@ -1,5 +1,3 @@
-<div align="center">
-
 # WebLINX Chatbot - COMP 545 Group Project
 ## Natural Language Understanding with Deep Learning - Application Track
 ### Project Overview:
