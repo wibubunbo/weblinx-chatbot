@@ -8,9 +8,12 @@ from modeling.dmr.eval import verify_queries_are_all_the_same, run_model_and_upd
 from modeling.llama.processing import build_prompt_records_for_llama_truncated, build_formatter_for_multichoice, insert_formatted_chat_into_records
 import re
 import requests
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-API_URL_DMR = "https://tz9o4fzbt55lqfsl.us-east-1.aws.endpoints.huggingface.cloud"
-API_URL_ACTION = "https://z2wzbni4hb7rcrb5.us-east-1.aws.endpoints.huggingface.cloud"
+API_URL_DMR = os.getenv("API_URL_DMR")
+API_URL_ACTION = os.getenv("API_URL_ACTION")
 headers_dmr = {
 	"Accept" : "application/json",
 	"Content-Type": "application/json" 
