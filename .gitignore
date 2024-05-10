@@ -166,3 +166,6 @@ modeling/logs/
 modeling/wl_data/
 modeling/checkpoints/
 modeling/results/
+
+# DS_Store files
+.DS_Store
