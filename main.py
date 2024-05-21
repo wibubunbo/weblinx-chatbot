@@ -95,7 +95,7 @@ def main():
                 elif answer.startswith('load'):
                     url = re.findall('url="([^"]*)"', answer)[0]
                     st.session_state.driver.get(url)
-                    time.sleep(10)
+                    time.sleep(3)
                     # Generate unique IDs for each element in the DOM
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     replay_helper.add_load_to_replay(replay_file_path, state, url, viewport_width, viewport_height, st.session_state.initial_timestamp, st.session_state.replay_data)
@@ -108,7 +108,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_click_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, st.session_state.replay_data)
                     target_element.click()
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -119,7 +119,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_textInput_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, text, st.session_state.replay_data)
                     target_element.send_keys(text)
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -128,7 +128,7 @@ def main():
                 elif answer.startswith('scroll'):
                     scrollX, scrollY = re.findall('x="([^"]*)"', answer)[0], re.findall('y="([^"]*)"', answer)[0]
                     st.session_state.driver.execute_script(f"window.scrollTo({scrollX}, {scrollY});")
-                    time.sleep(10)
+                    time.sleep(3)
                     replay_helper.add_scroll_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, scrollX, scrollY, st.session_state.replay_data)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
@@ -140,7 +140,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_submit_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, st.session_state.replay_data)
                     target_element.submit()
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -151,7 +151,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_change_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, value, st.session_state.replay_data)
                     target_element.send_keys(value)
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -178,7 +178,7 @@ def main():
                 elif answer.startswith('load'):
                     url = re.findall('url="([^"]*)"', answer)[0]
                     st.session_state.driver.get(url)
-                    time.sleep(10)
+                    time.sleep(3)
                     # Generate unique IDs for each element in the DOM
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     
@@ -192,7 +192,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_click_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, st.session_state.replay_data)
                     target_element.click()
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -203,7 +203,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_textInput_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, text, st.session_state.replay_data)
                     target_element.send_keys(text)
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -212,7 +212,7 @@ def main():
                 elif answer.startswith('scroll'):
                     scrollX, scrollY = re.findall('x="([^"]*)"', answer)[0], re.findall('y="([^"]*)"', answer)[0]
                     st.session_state.driver.execute_script(f"window.scrollTo({scrollX}, {scrollY});")
-                    time.sleep(10)
+                    time.sleep(3)
                     replay_helper.add_scroll_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, scrollX, scrollY, st.session_state.replay_data)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
@@ -224,7 +224,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_submit_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, st.session_state.replay_data)
                     target_element.submit()
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
@@ -235,7 +235,7 @@ def main():
                     target_element, attrs_dict, bbox = browser_helper.get_element_rect_and_attr(st.session_state.driver, uid)
                     replay_helper.add_change_to_replay(replay_file_path, state, st.session_state.driver.current_url, viewport_width, viewport_height, st.session_state.initial_timestamp, round(bbox["x"]), round(bbox["y"]), attrs_dict, bbox, target_element.tag_name, value, st.session_state.replay_data)
                     target_element.send_keys(value)
-                    time.sleep(10)
+                    time.sleep(3)
                     browser_helper.save_pages_bbox(st.session_state.driver, st.session_state.html_and_bboxes_index, data_dir)
                     st.session_state.html_and_bboxes_index += 1
                     st.session_state.driver.save_screenshot('./screenshot.png')
