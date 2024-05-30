@@ -61,5 +61,5 @@ Navigate to the provided local URL in your web browser to interact with the chat
 * For any unexpected behavior or errors, try restarting Streamlit or reactivating your Conda environment.
 
 ### Support
-For additional assistance or to report bugs, please contact `minh.q.ha@mail.mcgill.ca` or `bryan.melvison@mail.mcgill.ca`.
+For additional assistance or to report bugs, please contact `quangminhha1505@gmail.com`.
 
