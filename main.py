@@ -18,6 +18,13 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(os.path.join(data_dir, 'pages'), exist_ok=True)
     os.makedirs(os.path.join(data_dir, 'bboxes'), exist_ok=True)
+
+    # Delete all files in the pages and bboxes directories if they exist
+    for file in os.listdir(os.path.join(data_dir, 'pages')):
+        os.remove(os.path.join(data_dir, 'pages', file))
+    for file in os.listdir(os.path.join(data_dir, 'bboxes')):
+        os.remove(os.path.join(data_dir, 'bboxes', file))
+    
     replay_file_path = os.path.join(data_dir, 'replay.json')
 
     # Delete screenshot if it exists
