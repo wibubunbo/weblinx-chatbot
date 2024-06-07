@@ -28,8 +28,8 @@ cd yourrepository
 2. **Set Up Environment Variables:**
 Create a `.env` file in the project root and fill in the Hugging Face API endpoints:
 ```
-API_URL_DMR="https://tz9o4fzbt55lqfsl.us-east-1.aws.endpoints.huggingface.cloud"
-API_URL_ACTION="https://z2wzbni4hb7rcrb5.us-east-1.aws.endpoints.huggingface.cloud"
+API_URL_DMR="YOUR_DMR_API_KEY"
+API_URL_ACTION="YOUR_ACTION_LLM_KEY"
 ```
 
 3. **Create a Conda Environment:**
