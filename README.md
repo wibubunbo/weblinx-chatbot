@@ -59,7 +59,3 @@ Navigate to the provided local URL in your web browser to interact with the chat
 ### Troubleshooting
 * If you encounter issues with network connections or API limits, verify your `.env` file settings and ensure your network is stable.
 * For any unexpected behavior or errors, try restarting Streamlit or reactivating your Conda environment.
-
-### Support
-For additional assistance or to report bugs, please contact `quangminhha1505@gmail.com`.
-
