@@ -15,15 +15,20 @@ import browser_helper
 
 def main():
     data_dir = './live_data'
-    os.makedirs(data_dir, exist_ok=True)
-    os.makedirs(os.path.join(data_dir, 'pages'), exist_ok=True)
-    os.makedirs(os.path.join(data_dir, 'bboxes'), exist_ok=True)
 
-    # Delete all files in the pages and bboxes directories if they exist
-    for file in os.listdir(os.path.join(data_dir, 'pages')):
-        os.remove(os.path.join(data_dir, 'pages', file))
-    for file in os.listdir(os.path.join(data_dir, 'bboxes')):
-        os.remove(os.path.join(data_dir, 'bboxes', file))
+    # Clear directories only on the first run
+    if 'initialized' not in st.session_state:
+        os.makedirs(data_dir, exist_ok=True)
+        os.makedirs(os.path.join(data_dir, 'pages'), exist_ok=True)
+        os.makedirs(os.path.join(data_dir, 'bboxes'), exist_ok=True)
+
+        # Delete all files in the pages and bboxes directories
+        for folder in ['pages', 'bboxes']:
+            full_path = os.path.join(data_dir, folder)
+            for file in os.listdir(full_path):
+                os.remove(os.path.join(full_path, file))
+
+        st.session_state.initialized = True
     
     replay_file_path = os.path.join(data_dir, 'replay.json')
 
