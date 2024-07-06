@@ -1,4 +1,4 @@
-# WebLINX Chatbot - COMP 545 Group Project
+# WebLINX Chatbot - COMP 545 Final Project
 ## Natural Language Understanding with Deep Learning - Application Track
 
 ### Project Overview
