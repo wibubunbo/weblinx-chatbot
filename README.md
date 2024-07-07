@@ -8,8 +8,8 @@ The WebLINX Chatbot is an advanced conversational interface developed as a group
 ### Features
 
 - **Multi-Turn Dialogue**: Engage in a dynamic conversation with the chatbot to perform tasks on the web.
-- **Advanced NLP Capabilities**: Utilizes a pre-trained LLaMA-2 7B model for understanding and processing user commands.
-- **Real-Time Web Interaction**: Directly interact with web elements through commands processed by Selenium.
+- **Advanced NLP Capabilities**: Utilizes a fine-tuned LLaMA-2 7B model for understanding and processing user commands.
+- **Automated Web Interaction**: Translates the model's structured output into Selenium-compatible actions.
 - **User-Friendly Interface**: Streamlit-based front end for easy interaction with the chatbot.
 
 ### Prerequisites
